@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fdfdfd;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #314259;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+li a:hover {
+  color: #e87c83;
+  transition: all .2s ease-in-out;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.nav__item {
+  color: #314259;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  list-style: none;
+}
