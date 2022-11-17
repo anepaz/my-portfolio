@@ -14,7 +14,11 @@ const MyApp = () => {
   return (
     <>
     <Header />
-    <Footer />
+    <main className='main'>
+      <Home />
+      <Contact />
+      <Skills />
+    </main>
     </>
   );
 };

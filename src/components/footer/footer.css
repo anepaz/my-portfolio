@@ -1,0 +1,19 @@
+.footer {
+  position: fixed;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  bottom: 0;
+  background-color: #fdfdfd;
+}
+
+.nav__footer {
+  padding: 10px;
+}
+
+.copyright {
+  color: #314259;
+  font-weight: bold;
+  font-size: 14px;
+  font-style: italic;
+}
