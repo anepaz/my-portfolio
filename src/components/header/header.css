@@ -9,12 +9,7 @@ ul {
   justify-content: center;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #fdfdfd;
-}
-
-li {
-  float: left;
 }
 
 li a {
@@ -22,22 +17,38 @@ li a {
   color: #314259;
   padding: 14px 16px;
   text-decoration: none;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 li a:hover {
   color: #e87c83;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-li:last-child {
-  border-right: none;
-}
-
-.nav__item {
+.nav__item,
+.lang__flags {
   color: #314259;
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
   list-style: none;
+  margin-right: 2rem;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__nav {
+  flex: 1;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.nav__flag {
+  text-align: right;
+}
+
+.flag {
+  margin-right: 5px;
 }
