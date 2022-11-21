@@ -14,6 +14,7 @@ const MyApp = () => {
   return (
     <>
     <Header />
+    <Body />
     <Footer />
     </>
   );
